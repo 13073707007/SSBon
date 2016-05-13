@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_height"
+        layout="@layout/head_activity_sex" />
+
+    <RadioGroup
+        android:id="@+id/group_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/btn_man"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_set_height"
+            android:layout_marginRight="@dimen/navigation_set_right"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:paddingLeft="36dip"
+            android:text="男"
+            android:textColor="@color/black"
+            android:textSize="@dimen/navigation_bar_menu_font_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_gray" />
+
+        <RadioButton
+            android:id="@+id/btn_woman"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_set_height"
+            android:layout_marginRight="@dimen/navigation_set_right"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:paddingLeft="36dip"
+            android:text="女"
+            android:textColor="@color/black"
+            android:textSize="@dimen/navigation_bar_menu_font_size" />
+    </RadioGroup>
+
+</LinearLayout>

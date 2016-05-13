@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="@drawable/base_comment_emo_bar" >
+
+    <ImageView
+        android:id="@+id/img_vioce"
+        android:layout_width="15dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/huatong" />
+
+    <ImageView
+        android:id="@+id/img_text"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/anjian"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_showmenu"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/btn_show_menu_bg" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="45dp"
+        android:layout_height="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape_btn_send"
+        android:text="发送"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/edit_speak_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@id/btn_showmenu"
+        android:layout_toRightOf="@id/img_vioce"
+        android:background="@drawable/shape_edit_speak"
+        android:imeOptions="actionSend"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btn_record_audio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@id/btn_showmenu"
+        android:layout_toRightOf="@id/img_text"
+        android:background="@drawable/selector_btn_speak"
+        android:text="按住说话"
+        android:visibility="gone" />
+
+</RelativeLayout>

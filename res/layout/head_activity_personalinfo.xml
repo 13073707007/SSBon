@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcolor" >
+
+    <ImageButton
+        android:id="@+id/btn_goback"
+        android:layout_width="@dimen/navigation_bar_iconsize"
+        android:layout_height="@dimen/navigation_bar_iconsize"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/selector_btn_goback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="个人信息"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_bar_font_size" />
+
+    <TextView
+        android:id="@+id/tx_issue_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:text="发布服务"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_bar_menu_font_size"
+        android:visibility="gone" />
+
+</RelativeLayout>

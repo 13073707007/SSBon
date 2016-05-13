@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.loongme.activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_gray_white"
+    android:paddingBottom="10dp" >
+
+    <com.loongme.activity.widgets.CircleImageView
+        android:id="@+id/img_userPhoto_bonke"
+        android:layout_width="@dimen/userphoto_size"
+        android:layout_height="@dimen/userphoto_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dtx"
+        app:border_color="@color/appcolor"
+        app:border_width="0.5dp" />
+
+    <TextView
+        android:id="@+id/tx_bokename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/img_userPhoto_bonke"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/img_userPhoto_bonke"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tx_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/img_userPhoto_bonke"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/img_userPhoto_bonke"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tx_joboradress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tx_notice"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tx_notice"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/jiantou" />
+
+</RelativeLayout>

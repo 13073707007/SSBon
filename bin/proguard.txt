@@ -1,0 +1,154 @@
+# view res/layout/activity_main.xml #generated:39
+# view res/layout/activity_splash.xml #generated:7
+# view res/layout/layout_contentview_menudialog.xml #generated:15
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:301
+-keep class cn.sharesdk.framework.ShareSDKUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.baidu.location.f { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.loongme.activity.base.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.loongme.activity.business.SSBonLocationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:194
+-keep class com.loongme.activity.ui.ActivityAboutUs { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.loongme.activity.ui.ActivityAgreement { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.loongme.activity.ui.ActivityBusinessLicense { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.loongme.activity.ui.ActivityFeedback { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.loongme.activity.ui.ActivityForgetPassWord { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.loongme.activity.ui.ActivityGuest { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.loongme.activity.ui.ActivityLogin { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.loongme.activity.ui.ActivityMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.loongme.activity.ui.ActivityManifesto { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.loongme.activity.ui.ActivityMerDes { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.loongme.activity.ui.ActivityMerInt { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.loongme.activity.ui.ActivityMyServe { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.loongme.activity.ui.ActivityNickName { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.loongme.activity.ui.ActivityNotificationMeg { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.loongme.activity.ui.ActivityPerDes { <init>(...); }
+
+# view AndroidManifest.xml #generated:254
+-keep class com.loongme.activity.ui.ActivityPerInt { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.loongme.activity.ui.ActivityPersonalInfo { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.loongme.activity.ui.ActivityPersonalInfoSet { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.loongme.activity.ui.ActivityRecommendFriend { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.loongme.activity.ui.ActivityRegiste { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.loongme.activity.ui.ActivityRelease { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.loongme.activity.ui.ActivityResetPassWord { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.loongme.activity.ui.ActivityServer { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.loongme.activity.ui.ActivitySet { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.loongme.activity.ui.ActivitySex { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.loongme.activity.ui.ActivityShowMoreInfo { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.loongme.activity.ui.ActivitySplash { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class com.loongme.activity.ui.ActivityUpdate { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.loongme.activity.ui.ActivityWelcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.loongme.activity.ui.Bound2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:270
+-keep class com.loongme.activity.ui.Bound3Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.loongme.activity.ui.BoundActivity { <init>(...); }
+
+# view res/layout/layout_userinfo_login_bonke.xml #generated:9
+# view res/layout/layout_userinfo_login_normal.xml #generated:9
+# view res/layout/layout_userinfo_notlogin.xml #generated:8
+-keep class com.loongme.activity.widgets.CircleImageView { <init>(...); }
+
+# view res/layout/activity_forgetpass.xml #generated:39
+# view res/layout/activity_forgetpass.xml #generated:79
+# view res/layout/activity_login.xml #generated:39
+# view res/layout/activity_login.xml #generated:79
+# view res/layout/activity_resetpass.xml #generated:39
+# view res/layout/activity_resetpass.xml #generated:79
+# view res/layout/fragment_registe_step1.xml #generated:33
+# view res/layout/fragment_registe_step1.xml #generated:73
+# view res/layout/fragment_registe_step2.xml #generated:33
+# view res/layout/fragment_registe_step2.xml #generated:73
+-keep class com.loongme.activity.widgets.ClearEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.loongme.activity.widgets.cropimg.CutAvatarActivity { <init>(...); }
+
+# view res/layout/activity_cut_avatar.xml #generated:7
+-keep class com.loongme.activity.widgets.cropimg.CutAvatarView { <init>(...); }
+
+# view AndroidManifest.xml #generated:297
+-keep class com.loongme.activity.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.mob.tools.MobUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:307
+-keep class com.sina.weibo.sdk.net.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.umeng.update.net.DownloadingService { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:45
+-keep class com.viewpagerindicator.TabPageIndicator { <init>(...); }
+

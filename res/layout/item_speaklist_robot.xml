@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/tx_robot_speaktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_speaktime_bg"
+        android:lineSpacingExtra="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img_robot_photo"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/jqy" />
+
+        <TextView
+            android:id="@+id/tx_robot_speakcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/img_robot_photo"
+            android:background="@drawable/kong"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="1dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorLink="@color/appcolor" />
+    </RelativeLayout>
+
+</LinearLayout>

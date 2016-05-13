@@ -1,0 +1,605 @@
+cn.sharesdk.onekeyshare.CustomerLogo
+cn.sharesdk.onekeyshare.OnekeyShare
+cn.sharesdk.onekeyshare.OnekeySharePage:
+    private cn.sharesdk.onekeyshare.OnekeyShareThemeImpl impl
+    24:26:public OnekeySharePage(cn.sharesdk.onekeyshare.OnekeyShareThemeImpl)
+    30:30:protected final boolean isDialogMode()
+    34:34:protected final java.util.HashMap getShareParamsMap()
+    39:39:protected final boolean isSilent()
+    43:43:protected final java.util.ArrayList getCustomerLogos()
+    47:47:protected final java.util.HashMap getHiddenPlatforms()
+    51:51:protected final cn.sharesdk.framework.PlatformActionListener getCallback()
+    55:55:protected final cn.sharesdk.onekeyshare.ShareContentCustomizeCallback getCustomizeCallback()
+    59:59:protected final boolean isDisableSSO()
+    63:64:protected final void shareSilently(cn.sharesdk.framework.Platform)
+    67:70:protected final cn.sharesdk.framework.Platform$ShareParams formateShareData(cn.sharesdk.framework.Platform)
+    74:74:protected final boolean isUseClientToShare(cn.sharesdk.framework.Platform)
+cn.sharesdk.onekeyshare.OnekeyShareThemeImpl:
+    protected boolean dialogMode
+    protected java.util.HashMap shareParamsMap
+    protected boolean silent
+    protected java.util.ArrayList customerLogos
+    protected java.util.HashMap hiddenPlatforms
+    protected cn.sharesdk.onekeyshare.ShareContentCustomizeCallback customizeCallback
+    protected boolean disableSSO
+    51:52:public final void setDialogMode(boolean)
+    55:56:public final void setShareParamsMap(java.util.HashMap)
+    59:60:public final void setSilent(boolean)
+    63:64:public final void setCustomerLogos(java.util.ArrayList)
+    67:68:public final void setHiddenPlatforms(java.util.HashMap)
+    71:72:public final void setPlatformActionListener(cn.sharesdk.framework.PlatformActionListener)
+    75:76:public final void setShareContentCustomizeCallback(cn.sharesdk.onekeyshare.ShareContentCustomizeCallback)
+    79:80:public final void disableSSO()
+    83:101:public final void show(android.content.Context)
+    105:134:final boolean isUseClientToShare(cn.sharesdk.framework.Platform)
+    138:152:final void shareSilently(cn.sharesdk.framework.Platform)
+    155:166:private void prepareForEditPage(cn.sharesdk.framework.Platform)
+    169:285:final boolean formateShareData(cn.sharesdk.framework.Platform)
+    289:312:final cn.sharesdk.framework.Platform$ShareParams shareDataToShareParams(cn.sharesdk.framework.Platform)
+    protected abstract void showPlatformPage(android.content.Context)
+    protected abstract void showEditPage(android.content.Context,cn.sharesdk.framework.Platform,cn.sharesdk.framework.Platform$ShareParams)
+cn.sharesdk.onekeyshare.ShareContentCustomizeCallback
+cn.sharesdk.onekeyshare.themes.classic.ClassicTheme:
+    27:34:protected void showPlatformPage(android.content.Context)
+    39:48:protected void showEditPage(android.content.Context,cn.sharesdk.framework.Platform,cn.sharesdk.framework.Platform$ShareParams)
+cn.sharesdk.onekeyshare.themes.classic.EditPage
+cn.sharesdk.onekeyshare.themes.classic.FriendListPage:
+    private static final int DESIGN_LEFT_PADDING
+    49:50:public FriendListPage(cn.sharesdk.onekeyshare.OnekeyShareThemeImpl)
+    53:54:public void setPlatform(cn.sharesdk.framework.Platform)
+cn.sharesdk.onekeyshare.themes.classic.PicViewerPage
+cn.sharesdk.onekeyshare.themes.classic.PicViewerPage$1
+cn.sharesdk.onekeyshare.themes.classic.PlatformPage
+cn.sharesdk.onekeyshare.themes.classic.PlatformPage$1
+cn.sharesdk.onekeyshare.themes.classic.PlatformPage$2
+cn.sharesdk.onekeyshare.themes.classic.PlatformPage$3
+cn.sharesdk.onekeyshare.themes.classic.PlatformPage$4
+cn.sharesdk.onekeyshare.themes.classic.PlatformPageAdapter
+cn.sharesdk.onekeyshare.themes.classic.land.EditPageLand
+cn.sharesdk.onekeyshare.themes.classic.land.EditPageLand$1
+cn.sharesdk.onekeyshare.themes.classic.land.FriendListPageLand
+cn.sharesdk.onekeyshare.themes.classic.land.PlatformPageAdapterLand
+cn.sharesdk.onekeyshare.themes.classic.land.PlatformPageLand
+cn.sharesdk.onekeyshare.themes.classic.port.EditPagePort
+cn.sharesdk.onekeyshare.themes.classic.port.EditPagePort$1
+cn.sharesdk.onekeyshare.themes.classic.port.FriendListPagePort
+cn.sharesdk.onekeyshare.themes.classic.port.PlatformPageAdapterPort
+cn.sharesdk.onekeyshare.themes.classic.port.PlatformPagePort
+com.loongme.activity.BuildConfig
+com.loongme.activity.R:
+    10:10:public R()
+com.loongme.activity.R$anim
+com.loongme.activity.R$array
+com.loongme.activity.R$attr
+com.loongme.activity.R$bool
+com.loongme.activity.R$color
+com.loongme.activity.R$dimen
+com.loongme.activity.R$drawable
+com.loongme.activity.R$id
+com.loongme.activity.R$integer
+com.loongme.activity.R$layout
+com.loongme.activity.R$raw
+com.loongme.activity.R$string
+com.loongme.activity.R$style
+com.loongme.activity.R$styleable:
+    public static final int CircleImageView_border_color
+    public static final int CircleImageView_border_width
+    public static final int CirclePageIndicator_android_background
+    public static final int CirclePageIndicator_android_orientation
+    public static final int CirclePageIndicator_centered
+    public static final int CirclePageIndicator_fillColor
+    public static final int CirclePageIndicator_pageColor
+    public static final int CirclePageIndicator_radius
+    public static final int CirclePageIndicator_snap
+    public static final int CirclePageIndicator_strokeColor
+    public static final int CirclePageIndicator_strokeWidth
+    public static final int LinePageIndicator_android_background
+    public static final int LinePageIndicator_centered
+    public static final int LinePageIndicator_gapWidth
+    public static final int LinePageIndicator_lineWidth
+    public static final int LinePageIndicator_selectedColor
+    public static final int LinePageIndicator_strokeWidth
+    public static final int LinePageIndicator_unselectedColor
+    public static final int TitlePageIndicator_android_background
+    public static final int TitlePageIndicator_android_textColor
+    public static final int TitlePageIndicator_android_textSize
+    public static final int TitlePageIndicator_clipPadding
+    public static final int TitlePageIndicator_footerColor
+    public static final int TitlePageIndicator_footerIndicatorHeight
+    public static final int TitlePageIndicator_footerIndicatorStyle
+    public static final int TitlePageIndicator_footerIndicatorUnderlinePadding
+    public static final int TitlePageIndicator_footerLineHeight
+    public static final int TitlePageIndicator_footerPadding
+    public static final int TitlePageIndicator_linePosition
+    public static final int TitlePageIndicator_selectedBold
+    public static final int TitlePageIndicator_selectedColor
+    public static final int TitlePageIndicator_titlePadding
+    public static final int TitlePageIndicator_topPadding
+    public static final int UnderlinePageIndicator_android_background
+    public static final int UnderlinePageIndicator_fadeDelay
+    public static final int UnderlinePageIndicator_fadeLength
+    public static final int UnderlinePageIndicator_fades
+    public static final int UnderlinePageIndicator_selectedColor
+    public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle
+    public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle
+    public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle
+    public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle
+    public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle
+    public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle
+    1260:1260:public R$styleable()
+com.loongme.activity.adapter.AdapterSpeakList:
+    public static final int SpeakerType_Robot
+    public static final int SpeakerType_User
+com.loongme.activity.base.ApiClient:
+    80:81:public void download(java.lang.String,org.json.JSONObject,int,com.loongme.activity.base.AppHttpDownloadCallBack)
+    93:95:public void upload(java.lang.String,com.loopj.android.http.RequestParams,org.json.JSONObject,int,com.loongme.activity.base.AppHttpUploadCallBack)
+com.loongme.activity.base.AppHttpDownloadCallBack
+com.loongme.activity.base.AppHttpDownloadHandler
+com.loongme.activity.base.AppHttpResponseHandler:
+    24:24:public int getFlagRequest()
+    28:29:public void setFlagRequest(int)
+com.loongme.activity.base.AppHttpUploadCallBack
+com.loongme.activity.base.AppHttpUploadHandler
+com.loongme.activity.base.AppManager:
+    44:45:public android.app.Activity currentActivity()
+    52:54:public void finishActivity()
+    84:89:public void finishActivityButThis(java.lang.Class)
+com.loongme.activity.base.BaseActivity:
+    protected com.loongme.activity.base.BaseApplication mAppContext
+    207:207:public void onUploadStart()
+    212:212:public void onUploadProgress(int,int)
+    217:217:public void onUploadSuccess(org.json.JSONObject,int)
+    222:222:public void onUploadFailure(org.json.JSONObject,java.lang.Throwable,int)
+com.loongme.activity.base.BaseApplication:
+    private static com.loongme.activity.base.BaseApplication instance
+    56:59:public static com.loongme.activity.base.BaseApplication getInstance()
+    63:63:public static android.content.Context getContext()
+    72:73:public void setLoggedIn(boolean)
+    81:81:public boolean isLogin()
+com.loongme.activity.base.BaseFragment:
+    private static final java.lang.String TAG
+com.loongme.activity.base.CrashHandler
+com.loongme.activity.base.CrashHandler$1
+com.loongme.activity.business.Helpers:
+    22:22:public Helpers()
+    101:102:public static int getBonkeStatusFromLocal(android.content.Context)
+    177:178:public static java.lang.String getBusinessCache(android.content.Context)
+    189:189:public static java.lang.String generateCacheKey(java.lang.String)
+com.loongme.activity.business.SsbService:
+    public static final int port
+    32:33:public void setSocket(java.net.Socket)
+    145:155:public java.lang.String converMsgToGBK(java.lang.String)
+com.loongme.activity.common.Configuration:
+    public static final java.lang.String TAG
+    public static final java.lang.String FILE_SEPARATOR
+    public static final java.lang.String BUSINESS_CACHE_PATH
+    public static final java.lang.String SYSTEM_PRE
+    public static final java.lang.String ACCOUNT
+    public static final java.lang.String BONKE_STATUS
+    public static final java.lang.String VOICE_ISOPENED
+    public static final int REQUESTCODE_LOGINFROMPERSONAL
+    public static final int REQUESTCODE_LOGINFROMSPLASH
+    public static final int REQUESTCODE_REGISTEFROMPERSONAL
+    public static final int REQUESTCODE_REGISTEFROMLOGIN
+    public static final int REQUESTCODE_REGISTEFROMSPLASH
+    public static final int REQUESTCODE_SETPERSONNALINFO
+    public static final int REQUESTCODE_SELECT_SERVER_COVER
+    public static final int REQUESTCODE_SELECT_SERVER_WORK
+    public static final int REQUESTCODE_SELECT_IDCARD_MAINSIDE
+    public static final int REQUESTCODE_SELECT_IDCARD_REVERSESIDEE
+    public static final int REQUESTCODE_SELECT_LICENSE
+    public static final int REQUESTCODE_REQUEST_BUSDES
+    public static final int REQUESTCODE_REQUEST_BUSINTRODUCE
+    public static final int REQUESTCODE_REQUEST_PERSONAL_DES
+    public static final int REQUESTCODE_REQUEST_PERSONAL_INTRODUCE
+    public static final int REQUESTCODE_REQUEST_APPLYBONKE
+    public static final int REQUESTCODE_TAKEPHOTOS
+    public static final int REQUESTCODE_SELECTPICS
+    public static final int REQUESTCODE_CROPPHOTOS
+    public static final int REQUESTCODE_STATE
+    public static final java.lang.String PROTOCOL
+    public static final java.lang.String SERVER_ADDRESS
+    public static final java.lang.String SERVER_PORT
+    public static final java.lang.String SERVER_HOST_PREFIX
+    public static final java.lang.String URL_GETUSERINFO
+    public static final java.lang.String URL_LOGIN
+    public static final java.lang.String URL_REGISTE
+    public static final java.lang.String URL_UPLOAD_PHOTO
+    public static final java.lang.String URL_FEEDBACK
+    public static final java.lang.String URL_SEX
+    public static final java.lang.String URL_NICKNAME
+    public static final java.lang.String URL_MANIFESTO
+    public static final java.lang.String URL_UPDATEPASS
+    7:7:public Configuration()
+    140:140:public static java.lang.String getCacheDirWithUserName(java.lang.String)
+com.loongme.activity.common.Configuration$serv_flag
+com.loongme.activity.common.Configuration$sp_key
+com.loongme.activity.common.ResultObj
+com.loongme.activity.ui.ActivityGuest:
+    private java.lang.String et_mer_des_one
+    private java.lang.String et_mer_des_two
+    private java.lang.String et_mer_des_three
+    private android.widget.TextView aaaa
+    public static final java.lang.String DATA_URL
+    public static final java.lang.String SHARED_MERDES_XML
+com.loongme.activity.ui.ActivityRecommendFriend:
+    private static final int MSG_TOAST
+    private static final int MSG_ACTION_CCALLBACK
+    private static final int MSG_CANCEL_NOTIFY
+    private static final java.lang.String FILE_NAME
+com.loongme.activity.ui.ActivitySet:
+    private android.widget.Button btn1
+    private android.widget.Button btn2
+    private android.widget.Button btn3
+    private android.widget.Button btn4
+    private android.content.SharedPreferences mSharedPreferences
+    private android.widget.RelativeLayout rl_pu
+    private android.widget.RelativeLayout rl_yue
+    private android.widget.RelativeLayout rl_tai
+    private android.widget.RelativeLayout rl_dong
+    private android.content.SharedPreferences sf
+    private android.content.SharedPreferences$Editor e
+com.loongme.activity.ui.ActivitySex:
+    private android.widget.RadioButton btn_man
+    private android.widget.RadioButton btn_woman
+com.loongme.activity.ui.BusinessLicenseActivity:
+    private static final int IMAGE_REQUEST_CODE
+    private static final int CAMERA_REQUEST_CODE
+    private static final int RESULT_REQUEST_CODE
+    private static final java.lang.String SAVE_AVATORNAME
+com.loongme.activity.ui.FragmentRegisteStepTwo:
+    50:50:public java.lang.String getUserPhone()
+    58:58:public int getIsFrom()
+com.loongme.activity.ui.FragmentReisteStepOne:
+    60:60:public com.loongme.activity.base.RegisteNextCallBack getRegisteNextCallBack()
+com.loongme.activity.utils.ACache
+com.loongme.activity.utils.ACache$ACacheManager
+com.loongme.activity.utils.ACache$ACacheManager$1
+com.loongme.activity.utils.ACache$Utils
+com.loongme.activity.utils.CacheUtil
+com.loongme.activity.utils.CookieUtil:
+    9:9:public CookieUtil()
+com.loongme.activity.utils.DateUtil:
+    public static final java.lang.String YYYY_MM_DD
+    public static final java.lang.String YY_MM_DD
+    public static final java.lang.String MM_DD_HH_MM_SS
+    public static final java.lang.String YYYY_MM_DD_HH_MM
+    public static final java.lang.String YYYY_MM_DD_HH_MM_SS
+    public static final java.lang.String YYYY_MM_DD_HH_MM_SS_SHORT
+    public static final java.lang.String MM_DD_HH_MM
+    public static final java.lang.String MM_DD
+    public static final java.lang.String MM_DD_HH_MM1
+    31:31:public DateUtil()
+    84:86:public static java.lang.String getCurrentTime()
+    108:110:public static java.lang.String getTimeStamp(long)
+    114:121:public static long checkPhpOrJavaTimeStamp(long)
+    132:134:public static java.lang.String getTimeStamp(long,java.lang.String)
+    145:146:public static java.lang.String getTimeStamp(java.util.Date,java.lang.String)
+    159:163:public static long getTimeStampFromYearMonthDay(int,int,int)
+    173:173:public static java.util.Date parseDate(java.lang.String)
+    183:190:public static java.util.Date parseDate(java.lang.String,java.lang.String)
+    203:209:public static long getTimeStampFromYearMonthDay(int,int,int,int,int)
+    219:232:public static boolean compareDateIsLessThanNow(int,int,int)
+    236:240:public static boolean isEndDateBeforeStartDate(java.lang.String,java.lang.String)
+    257:260:public static int convertMinutesFromHourAndMinute(java.lang.String)
+    269:269:public static long getUnixStamp()
+    278:282:public static java.lang.String getYestoryDate()
+    291:293:public static java.lang.String getTodayDate()
+    303:305:public static java.lang.String timeStampToStr(long)
+    316:318:public static java.lang.String formatDate(long)
+    329:336:public static java.lang.String getTime(long)
+    346:362:public static java.lang.String convertTimeToFormat(long)
+    373:375:public static java.lang.String timeStampToFormat(long)
+com.loongme.activity.utils.DeviceUtils:
+    private static final long CANNOT_STAT_ERROR
+    36:36:public DeviceUtils()
+    40:40:public static boolean hasFroyo()
+    45:45:public static boolean hasGingerbread()
+    50:50:public static boolean hasHoneycomb()
+    55:55:public static boolean hasHoneycombMR1()
+    60:60:public static boolean hasICS()
+    64:64:public static int getSDKVersionInt()
+    69:69:public static java.lang.String getSDKVersion()
+    79:79:public static boolean isTablet(android.content.Context)
+    83:83:public static boolean isHoneycombTablet(android.content.Context)
+    92:92:public static java.lang.String getDeviceModel()
+    97:97:public static boolean isMeizu()
+    102:102:public static boolean isHTC()
+    106:106:public static boolean isXiaomi()
+    115:115:public static java.lang.String getManufacturer()
+    120:121:public static int getScreenHeight(android.content.Context)
+    127:128:public static int getScreenWidth(android.content.Context)
+    135:136:public static float getScreenDensity(android.content.Context)
+    140:149:public static int[] getScreenSize(int,int,android.content.Context)
+    153:158:public static int[] getScreenSize(int,int,int,int)
+    163:170:public static void setBrightness(android.app.Activity,float)
+    187:194:public static long getAvailableStorage()
+    218:218:protected boolean isHardKeyboardOpen(android.content.Context)
+    222:237:public static java.lang.String getCpuInfo()
+    241:261:public static void startApkActivity(android.content.Context,java.lang.String)
+com.loongme.activity.utils.DiskCache
+com.loongme.activity.utils.FileUtils:
+    private static final double KB
+    private static final double MB
+    private static final double GB
+    39:39:public FileUtils()
+    45:52:public static java.lang.String generateShortTitle(java.lang.String)
+    60:66:public static java.lang.String generateShortTitle(java.lang.String,int)
+    79:87:public static java.lang.String generateShortFileName(java.lang.String,int)
+    101:102:public static boolean checkExternalSDExists()
+    113:120:public static boolean checkFileExists(java.lang.String)
+    130:130:public static boolean checkFilePathExists(java.lang.String)
+    139:145:public static boolean checkSaveLocationExists()
+    154:162:public static boolean checkSDCardAvailable()
+    172:183:public static void clearFileWithPath(java.lang.String)
+    192:197:public static void createDir(java.lang.String)
+    207:214:public static boolean createDirectory(java.lang.String)
+    218:222:public static java.io.File createFile(java.lang.String,java.lang.String)
+    232:233:public static void createMultilevelDir(java.lang.String)
+    243:259:public static void createMultilevelDir(java.lang.String,java.lang.String)
+    267:274:public static com.loongme.activity.utils.FileUtils$PathStatus createPath(java.lang.String)
+    286:296:public static int deleteBlankPath(java.lang.String)
+    307:335:public static boolean deleteDirectory(java.lang.String)
+    344:348:public static void delFile(java.lang.String)
+    358:378:public static boolean deleteFile(java.lang.String)
+    387:395:public static boolean deleteFileWithPath(java.lang.String)
+    405:416:public static java.lang.String formatFileSize(long)
+    427:433:public static java.lang.String getAppCache(android.content.Context,java.lang.String)
+    442:443:public static java.lang.String getDirFromFile(java.lang.String)
+    453:469:public static long getDirSize(java.io.File)
+    479:481:public static java.lang.String getExternalSDRoot()
+    491:495:public static java.lang.String getFileFormat(java.lang.String)
+    505:507:public static java.lang.String getFileName(java.lang.String)
+    517:521:public static java.lang.String getFileNameNoFormat(java.lang.String)
+    532:539:public static java.lang.String getFileSize(long)
+    550:556:public static long getFileSize(java.lang.String)
+    565:580:public static long getFreeDiskSpace()
+    589:591:public static java.lang.String getPathName(java.lang.String)
+    601:601:public static java.lang.String getSDRoot()
+    611:623:public static java.util.List listPath(java.lang.String)
+    633:644:public static java.util.List listPathFiles(java.lang.String)
+    656:661:public static java.lang.String read(android.content.Context,java.lang.String)
+    673:697:public static synchronized java.lang.String readFileUTF8(java.lang.String)
+    702:715:public static java.lang.String readInStream(java.io.InputStream)
+    726:727:public static boolean reNamePath(java.lang.String,java.lang.String)
+    731:738:public static byte[] toBytes(java.io.InputStream)
+    748:766:public static void writeAppFile(android.content.Context,java.lang.String,java.lang.String)
+    781:788:public static synchronized void writeContent(java.lang.String,java.lang.String,boolean)
+    801:819:public static void writeFile(java.io.InputStream,java.lang.String)
+    833:843:public static void writeFile(java.io.InputStream,java.lang.String,boolean)
+    855:861:public static void writeFile(java.lang.String,java.lang.String,boolean)
+    872:904:public static boolean writeFileInFolder(byte[],java.lang.String,java.lang.String)
+    916:948:public static boolean writeFileOnSDCard(byte[],java.lang.String,java.lang.String)
+    962:977:public static void writeFileUTF8(java.lang.String,java.lang.String)
+    986:995:public long getFileList(java.io.File)
+    1005:1011:public static java.lang.String getMimeType(java.lang.String)
+    1072:1073:public static boolean isVideoOrAudio(java.io.File)
+    1077:1078:public static boolean isVideoOrAudio(java.lang.String)
+    1082:1083:public static boolean isVideo(java.io.File)
+    1088:1095:public static java.lang.String getFileExtension(java.io.File)
+    1099:1107:public static java.lang.String getUrlFileName(java.lang.String)
+    1111:1117:public static java.lang.String getUrlExtension(java.lang.String)
+    1121:1127:public static java.lang.String getFileNameNoEx(java.lang.String)
+    1132:1141:public static java.lang.String showFileSize(long)
+    1146:1154:public static java.lang.String showFileAvailable()
+    1159:1164:public static boolean createIfNoExists(java.lang.String)
+    1171:1179:public static java.lang.String getExternalStorageDirectory()
+    1183:1183:public static boolean sdAvailable()
+    1188:1194:public static java.lang.String getCanonical(java.io.File)
+    1205:1210:public static java.lang.String getPath(java.lang.String)
+    1214:1217:public static java.lang.String getName(java.lang.String)
+    1221:1229:public static void deleteDir(java.io.File)
+com.loongme.activity.utils.HttpUtil:
+    private static final java.lang.String TAG
+    public static final java.lang.String KEY_LAN_STAT
+    public static final java.lang.String LAN_STAT_CONNECTED
+    public static final java.lang.String LAN_STAT_ACQUIRED
+    public static final java.lang.String LAN_STAT_DISCONNECTED
+    private static final double MAX_TIME_TO_WAIT
+    private static com.loopj.android.http.SyncHttpClient mSyncHttpClient
+    private static final int TIMEOUT_NUM
+    private static final int MAX_CONNECTIONS
+    22:22:public HttpUtil()
+    116:124:public static com.loopj.android.http.SyncHttpClient getSyncHttpClient(android.content.Context)
+    151:157:public static boolean isWifiNetworkAvailable(android.content.Context)
+    170:211:public static double getPingTime(java.lang.String)
+    220:224:public static boolean checkNetWorkSpeedIsAccepted()
+    232:241:public static boolean isNetworkRoaming(android.content.Context)
+    249:257:public static void startWifi(android.content.Context)
+com.loongme.activity.utils.ImageUtils:
+    public static final java.lang.String SDCARD_MNT
+    public static final java.lang.String SDCARD
+    public static final int REQUEST_CODE_GETIMAGE_BYSDCARD
+    public static final int REQUEST_CODE_GETIMAGE_BYCAMERA
+    public static final int REQUEST_CODE_GETIMAGE_BYCROP
+    51:51:public ImageUtils()
+    70:93:public static void doSaveBitmap(android.content.Context,android.graphics.Bitmap,java.lang.String)
+    129:130:public static void saveImage(android.content.Context,java.lang.String,android.graphics.Bitmap)
+    133:142:public static void saveImage(android.content.Context,java.lang.String,android.graphics.Bitmap,int)
+    150:163:public static void saveImageToSD(android.content.Context,java.lang.String,android.graphics.Bitmap,int)
+    166:179:public static void saveBackgroundImage(android.content.Context,java.lang.String,android.graphics.Bitmap,int)
+    185:190:public static void scanPhoto(android.content.Context,java.lang.String)
+    200:215:public static android.graphics.Bitmap getBitmap(android.content.Context,java.lang.String)
+    225:225:public static android.graphics.Bitmap getBitmapByPath(java.lang.String)
+    229:245:public static android.graphics.Bitmap getBitmapByPath(java.lang.String,android.graphics.BitmapFactory$Options)
+    255:270:public static android.graphics.Bitmap getBitmapByFile(java.io.File)
+    280:282:public static java.lang.String getTempFileName()
+    302:317:public static java.lang.String getAbsolutePathFromNoStandardUri(android.net.Uri)
+    328:343:public static java.lang.String getAbsoluteImagePath(android.app.Activity,android.net.Uri)
+    377:378:public static android.graphics.Bitmap loadImgThumbnail(java.lang.String,int,int)
+    387:407:public static java.lang.String getLatestImage(android.app.Activity)
+    418:421:public static int[] scaleImageSize(int[],int)
+    440:456:public static void createImageThumbnail(android.content.Context,java.lang.String,java.lang.String,int,int)
+    467:477:public static android.graphics.Bitmap zoomBitmap(android.graphics.Bitmap,int,int)
+    491:499:public static android.graphics.Bitmap zoomBitmap(android.graphics.Bitmap,float)
+    511:522:public static android.graphics.Bitmap rotateBitmap(android.graphics.Bitmap,int)
+    533:539:public static void rotateView(android.view.View,float)
+    543:559:public static android.graphics.Bitmap scaleBitmap(android.graphics.Bitmap)
+    571:593:public static android.graphics.Bitmap reDrawBitMap(android.app.Activity,android.graphics.Bitmap)
+    603:610:public static android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable)
+    624:640:public static android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,float)
+    650:677:public static android.graphics.Bitmap createReflectionImageWithOrigin(android.graphics.Bitmap)
+    687:688:public static android.graphics.drawable.Drawable bitmapToDrawable(android.graphics.Bitmap)
+    698:699:public static android.graphics.Bitmap drawableTobitmap(android.graphics.drawable.Drawable)
+    709:726:public static java.lang.String getImageType(java.io.File)
+    737:745:public static java.lang.String getImageType(java.io.InputStream)
+    757:769:public static java.lang.String getImageType(byte[])
+    773:776:private static boolean isJPEG(byte[])
+    780:783:private static boolean isGIF(byte[])
+    787:790:private static boolean isPNG(byte[])
+    795:798:private static boolean isBMP(byte[])
+    810:826:public static java.lang.String getImagePath(android.net.Uri,android.app.Activity)
+    840:873:public static android.graphics.Bitmap loadPicasaImageFromGalley(android.net.Uri,android.app.Activity)
+    877:877:public static boolean saveBitmap(java.lang.String,android.graphics.Bitmap)
+    882:910:public static boolean saveBitmap(java.io.File,android.graphics.Bitmap)
+    921:939:public static android.graphics.Bitmap composeBitmap(android.graphics.Bitmap,android.graphics.Bitmap)
+com.loongme.activity.utils.ImageUtils$1
+com.loongme.activity.utils.Logger:
+    private static final java.lang.String TAG
+    7:7:public Logger()
+    13:14:public static void setLog(boolean)
+    17:17:public static boolean getIsLog()
+    27:28:public static void d(java.lang.String)
+    42:45:public static void d(java.lang.String,java.lang.String,java.lang.Throwable)
+    48:51:public static void e(java.lang.Throwable)
+    54:57:public static void i(java.lang.String)
+    77:81:public static void i(java.lang.String,java.lang.String,java.lang.Throwable)
+    99:102:public static void e(java.lang.String)
+    116:119:public static void e(java.lang.String,java.lang.String,java.lang.Throwable)
+    122:125:public static void e(java.lang.String,java.lang.Throwable)
+    129:135:public static void systemErr(java.lang.String)
+com.loongme.activity.utils.StringUtils:
+    private static final java.lang.String regEx_mobile
+    public static final java.lang.String EMPTY
+    private static final java.lang.String DEFAULT_DATE_PATTERN
+    private static final java.lang.String DEFAULT_DATETIME_PATTERN
+    private static final java.lang.String DEFAULT_FILE_PATTERN
+    private static final double KB
+    private static final double MB
+    private static final double GB
+    20:20:public StringUtils()
+    52:52:public static boolean hasSpaceCharacter(java.lang.String)
+    62:64:public static boolean isEmail(java.lang.String)
+    76:79:public static int toInt(java.lang.String,int)
+    89:91:public static int toInt(java.lang.Object)
+    102:105:public static long toLong(java.lang.String)
+    116:119:public static boolean toBool(java.lang.String)
+    129:158:public static java.lang.String toConvertString(java.io.InputStream)
+    162:172:public static varargs java.lang.String join(java.lang.String,java.lang.String[])
+    176:176:public static varargs java.lang.String concate(java.lang.String[])
+    180:190:public static varargs java.lang.String join(com.loongme.activity.utils.StringUtils$StringGetter,java.lang.String,java.lang.Object[])
+    194:194:public static varargs java.lang.String concate(com.loongme.activity.utils.StringUtils$StringGetter,java.lang.Object[])
+    215:215:public static java.lang.String currentTimeString()
+    219:221:public static char chatAt(java.lang.String,int)
+    226:230:public static float GetTextWidth(java.lang.String,float)
+    241:242:public static java.lang.String formatDate(java.util.Date,java.lang.String)
+    252:252:public static java.lang.String formatDate(java.util.Date)
+    256:256:public static java.lang.String formatDate(long)
+    265:265:public static java.lang.String getDate()
+    270:272:public static java.lang.String createFileName()
+    281:281:public static java.lang.String getDateTime()
+    291:291:public static java.lang.String formatDateTime(java.util.Date)
+    295:295:public static java.lang.String formatDateTime(long)
+    305:306:public static java.lang.String formatGMTDate(java.lang.String)
+    317:325:public static java.lang.String join(java.util.ArrayList,java.lang.String)
+    329:339:public static java.lang.String join(java.util.Iterator,java.lang.String)
+    358:358:public static java.lang.String trim(java.lang.String)
+    369:374:public static java.lang.String generateTime(long)
+    380:382:public static java.lang.String gennerTime(int)
+    393:402:public static java.lang.String generateFileSize(long)
+    407:432:public static java.lang.String getTimeDiff(long)
+    448:457:public static java.lang.String substring(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    472:472:public static java.lang.String substring(java.lang.String,java.lang.String,java.lang.String)
+    482:489:public static varargs java.lang.String concat(java.lang.String[])
+    495:502:public static int getChineseCharCount(java.lang.String)
+    508:515:public static int getEnglishCount(java.lang.String)
+    520:525:public static java.lang.String encode(java.lang.String)
+    535:535:public static java.lang.String generateCacheKey(java.lang.String)
+com.loongme.activity.utils.StringUtils$StringGetter
+com.loongme.activity.utils.TimeUtils
+com.loongme.activity.utils.UIUtil:
+    private static long lastClickTime
+    44:44:public UIUtil()
+    54:83:public static int getDisplaySize(android.content.Context)
+    93:116:public static android.app.Dialog getProgressDialog(android.content.Context,java.lang.String)
+    125:130:public static void redirect(android.content.Context,java.lang.Class,boolean)
+    133:134:public static void redirect(android.content.Context,java.lang.Class,int)
+    168:170:public static java.text.DecimalFormat getDecimalFormat()
+    174:175:public static void showMsg(android.content.Context,int)
+    178:179:public static void showMsg(android.content.Context,int,int)
+    194:195:public static void showMsg(android.content.Context,java.lang.String,int)
+    201:209:public static void showMsgOnUiThread(android.app.Activity,java.lang.String)
+    219:222:public static void dial(android.content.Context,java.lang.String)
+    231:259:public static void tryToDial(android.content.Context,java.lang.String)
+    269:271:public static void sendSMS(java.lang.String,java.lang.String)
+    274:277:public static void sendSMS(java.lang.String[],java.lang.String)
+    280:290:public static java.lang.String formatMobiles(java.lang.String[])
+    301:305:public static void sendSmsUi(android.content.Context,java.lang.String,java.lang.String)
+    308:312:public static void sendSmsUi(android.content.Context,java.lang.String[],java.lang.String)
+    315:326:public static void confirm(android.content.Context,java.lang.String,android.content.DialogInterface$OnClickListener)
+    330:339:public static void confirm(android.content.Context,java.lang.String,android.content.DialogInterface$OnClickListener,java.lang.String,java.lang.String)
+    342:355:public static void alert(android.content.Context,java.lang.String,android.content.DialogInterface$OnClickListener)
+    364:383:public static void showExitSystemDialog(android.app.Activity)
+    387:389:public static double tryToDouble(java.lang.String)
+    395:397:public static long tryToLong(java.lang.String)
+    403:405:public static int tryToInteger(java.lang.String)
+    410:415:public static void toggleShowView(android.view.View)
+    421:422:public static void showView(android.view.View)
+    428:429:public static void hideView(android.view.View)
+    451:452:public static int px2dip(android.content.Context,float)
+    462:463:public static boolean isLetter(java.lang.String)
+    473:477:public static boolean isLetter(char)
+    490:494:public static boolean isMobileNO(java.lang.String)
+    515:521:public static boolean isFastDoubleClick()
+    532:536:public static void freezeWidget(android.widget.TextView,boolean)
+    547:556:public static java.lang.String readData(java.io.InputStream,java.lang.String)
+    593:593:public static java.lang.String getAppVersionName(android.content.Context)
+    604:607:public static void startInstaller(android.app.Activity,int,java.io.File)
+    616:619:public static void startInstaller(android.content.Context,java.io.File)
+    629:632:public static java.lang.String formatMoney(java.lang.String)
+    644:644:public static java.lang.String formatMoney(double)
+    661:677:public static void ShowAlertDlg(android.content.Context,java.lang.String,java.lang.String,java.lang.String,android.content.DialogInterface$OnClickListener,java.lang.String,android.content.DialogInterface$OnClickListener)
+    687:689:public static void displayImage(android.content.Context,java.lang.String,android.widget.ImageView)
+    734:739:public static int getStatusBarHeight(android.content.Context)
+com.loongme.activity.utils.UIUtil$1
+com.loongme.activity.utils.UIUtil$2
+com.loongme.activity.utils.UIUtil$3
+com.loongme.activity.utils.UIUtil$4
+com.loongme.activity.utils.UIUtil$5
+com.loongme.activity.utils.UIUtil$6
+com.loongme.activity.utils.UIUtil$7
+com.loongme.activity.utils.UIUtil$8
+com.loongme.activity.widgets.CustomProgressDialog:
+    private java.lang.String oldLoadingTip
+    55:56:public void setContent(java.lang.String)
+com.loongme.activity.widgets.MoreMenuDialog
+com.loongme.activity.widgets.MoreMenuDialog$VPAdapter
+com.loongme.activity.widgets.cropimg.CutAvatarActivity:
+    88:88:private android.view.View$OnClickListener doCut()
+com.loongme.activity.widgets.cropimg.CutAvatarActivity$3
+com.loongme.activity.widgets.cropimg.package-info
+com.loongme.activity.widgets.gestureimg.FlingAnimation:
+    68:69:public void setFactor(float)
+com.loongme.activity.widgets.gestureimg.GestureImageViewTouchListener:
+    92:93:public void setZoomed(boolean)
+    472:472:public float getMaxScale()
+    480:480:public float getMinScale()
+com.loongme.activity.widgets.gestureimg.MathUtils:
+    22:22:public MathUtils()
+    37:39:public static float distance(float,float,float,float)
+    61:67:public void rotate(android.graphics.PointF,android.graphics.PointF,float)
+com.loongme.activity.widgets.gestureimg.MoveAnimation:
+    73:75:public void reset()
+    79:79:public float getTargetX()
+    84:85:public void setTargetX(float)
+    89:89:public float getTargetY()
+    93:94:public void setTargetY(float)
+    97:97:public long getAnimationTimeMS()
+    101:102:public void setAnimationTimeMS(long)
+com.loongme.activity.widgets.gestureimg.ZoomAnimation:
+    129:129:public float getZoom()
+    137:137:public float getTouchX()
+    145:145:public float getTouchY()
+    153:153:public long getAnimationLengthMS()
+    157:158:public void setAnimationLengthMS(long)
+    161:161:public com.loongme.activity.widgets.gestureimg.ZoomAnimationListener getZoomAnimationListener()

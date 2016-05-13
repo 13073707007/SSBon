@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_height"
+        layout="@layout/head_activity_myserve" />
+
+    <ListView
+        android:id="@+id/lvserve"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/grayLine"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app主色调 -->
+    <color name="appcolor">#01CED1</color>
+    <color name="appcolor_deep">#33BABE</color>
+    <!-- 主色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="green_light">#52EC3E</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange_light">#FD8627</color>
+    <color name="orange">#FFA500</color>
+    <color name="transparent">#00000000</color>
+   <color name="grayLine">#DFDFDF</color>
+    <!-- app colors -->
+    <color name="gray_light">#D2D2D2</color>
+    <color name="toolbar_bg">#EFEFEF</color>
+    <color name="transparent_half">#e0000000</color>
+    <color name="transparent_lucency">#b0000000</color>
+    <color name="color_nicheng">#FF8B0F</color>
+    <color name="bg_gray">#EBEBED</color>
+    <!-- 扫描选项框 -->
+    <color name="scanopt_text">#0179FF</color>
+    <color name="gray_line_color">#f1f1f1</color>
+    <color name="hui">#EBEBEC</color>
+    <color name="zi">#4d4d4d</color>
+
+</resources>

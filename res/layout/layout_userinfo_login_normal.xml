@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.loongme.activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_gray_white"
+    android:paddingBottom="10dp" >
+
+    <com.loongme.activity.widgets.CircleImageView
+        android:id="@+id/img_userPhoto_loginnormal"
+        android:layout_width="@dimen/userphoto_size"
+        android:layout_height="@dimen/userphoto_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dtx"
+        app:border_color="@color/appcolor"
+        app:border_width="0.5dp" />
+
+    <TextView
+        android:id="@+id/tx_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_userPhoto_loginnormal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="无名氏"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tx_nicheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tx_username"
+        android:layout_below="@id/img_userPhoto_loginnormal"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/tx_username"
+        android:text="昵称"
+        android:textColor="@color/orange_light" />
+
+    <LinearLayout
+        android:id="@+id/layout_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tx_nicheng"
+        android:layout_below="@id/tx_username"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:src="@drawable/shouji" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text="|"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tx_userphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_applybon"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/layout_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_applybon"
+        android:paddingBottom="2dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="2dp"
+        android:text="我要做帮客"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/jiantou" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/head_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_height"
+        layout="@layout/head_activity_main" />
+
+    <ListView
+        android:id="@+id/listview_speak"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#0000"
+        android:clickable="false"
+        android:divider="@null"
+        android:scrollbars="none" >
+    </ListView>
+
+    <include
+        android:id="@+id/toolbar_speak"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        layout="@layout/toolbar_speak" />
+
+    <LinearLayout
+        android:id="@+id/layout_speak_menu"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_speak_menu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.viewpagerindicator.TabPageIndicator
+            android:id="@+id/vp_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/base_comment_emo_bar" />
+    </LinearLayout>
+
+</LinearLayout>

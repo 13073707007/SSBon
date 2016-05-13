@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_height"
+        layout="@layout/head_activity_feedback" />
+
+    <EditText
+        android:id="@+id/et_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/frame"
+        android:enabled="true"
+        android:gravity="top"
+        android:hint="请详细描述您的问题和建议,我们将不断改进"
+        android:maxLines="6"
+        android:minLines="6"
+        android:padding="5dp"
+        android:scrollbars="vertical" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/frame" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="您的联系方式:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_feedback_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white"
+            android:hint="请输入邮箱/电话,以便回复"
+            android:textSize="12dp" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_feedback_send"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/selector_btn_applybon"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</LinearLayout>
